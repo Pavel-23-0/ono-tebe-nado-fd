@@ -24,13 +24,20 @@
 }
 
 .header__links-list-item {
-    text-decoration: underline;
     gap: 12px;
 }
 
 .header__links-list-item_no-bullit {
     list-style: none;
     
+}
+
+.header__link {
+  text-decoration: underline; 
+}
+
+.header__link_active {
+  text-decoration: none; 
 }
 
 .header__logo {
@@ -127,7 +134,7 @@
   letter-spacing: normal;
 }
 
-.letter-spacing-nado {
+.letter-spacing-wide {
   letter-spacing: 0.3em;
   margin-left: 30px;
 }
@@ -313,10 +320,8 @@
   line-height: 24px;
 }
 
-.about__text-second {
-  font-size: 20px;
+.about__text-paragraph {
   margin-top: 24px;
-  line-height: 24px;
 }
 
 /* Footer */
@@ -382,7 +387,7 @@
   text-decoration: none; 
 }
 
-.footer__menu-link_underline {
+.footer__menu-link_active {
   text-decoration: underline; 
 }
 
