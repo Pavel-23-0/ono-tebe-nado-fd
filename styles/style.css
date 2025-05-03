@@ -55,7 +55,6 @@
 }
 
 .header__address {
-    font-family: Raleway;
     font-style: normal;
     font-size: 18px;
     line-height: 24.5px;
@@ -182,19 +181,7 @@
   padding-right: 24px;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: black;
-    opacity: 0.6;
-    z-index: 1;
-}
-
 .lots__heading {
-  color: #66E0DA;
   text-transform: uppercase;
   margin-bottom: 27px;
   margin-left: 40px;
@@ -267,7 +254,6 @@
   font-size: 20px;
   margin-left: 44px;
   color: #000;
-  text-decoration: none;
 }
 
 
@@ -292,7 +278,7 @@
   margin-left: 47px;
   width: 240px;
   height: 240px;
-  border-radius: 180px;
+  border-radius: 50%;
   display: flex;          
   justify-content: center; 
   align-items: center;    
@@ -326,16 +312,7 @@
 
 /* Footer */
 
-.footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: start; 
-  padding-bottom: 82px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.footer {
+.page-footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start; 
@@ -348,8 +325,7 @@
   justify-self: start;
 }
 
-.address__list {
-  font-family: Raleway;
+.address__list {  
   font-style: normal;
   font-size: 18px;
   line-height: 24.5px;
@@ -360,7 +336,6 @@
 }
 
 .address__link {
-  text-decoration: none;
   color: inherit;
 }
 
@@ -384,11 +359,11 @@
 }
 
 .footer__menu-link {
-  text-decoration: none; 
+  text-decoration: underline; 
 }
 
 .footer__menu-link_active {
-  text-decoration: underline; 
+  text-decoration: none; 
 }
 
 .footer__social-list {
